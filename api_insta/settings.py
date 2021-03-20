@@ -25,7 +25,7 @@ SECRET_KEY = '0701e7e6cc@29gdpy=sab0vnc1b207f()_2&tu%d08#cuw)!1j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://sportport.net"]
+ALLOWED_HOSTS = ["127.0.0.1","http://sportport.net"]
 
 
 # Application definition
