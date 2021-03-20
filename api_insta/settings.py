@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000","http://sportport.net"
+    "http://localhost:3000","http://sportport.net","http://3.112.221.81"
 ]
 ROOT_URLCONF = 'api_insta.urls'
 
