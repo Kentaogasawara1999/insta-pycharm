@@ -25,7 +25,7 @@ SECRET_KEY = '0701e7e6cc@29gdpy=sab0vnc1b207f()_2&tu%d08#cuw)!1j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1","http://sportport.net","3.112.221.81"]
+ALLOWED_HOSTS = ["127.0.0.1","http://sportport.net","3.112.221.81",'localhost',"18.183.68.110"]
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000","http://sportport.net","http://3.112.221.81"
+    "http://localhost:3000","http://sportport.net","http://3.112.221.81","http://18.183.68.110"
 ]
 ROOT_URLCONF = 'api_insta.urls'
 
